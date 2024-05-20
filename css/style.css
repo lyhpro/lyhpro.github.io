@@ -1,0 +1,30 @@
+.my-body {
+    background-color: antiquewhite;
+    width: 90%;
+    margin: auto;
+}
+
+.my-header {
+    margin: .5em 0em;
+    height: 7.5em;
+    background-color: burlywood;
+}
+
+.my-header-title {
+    color: black;
+
+}
+
+.my-navbar {
+    margin: .5em 0em;
+    height: 3em;
+    background-color: darkred;
+}
+
+.my-navbar ul {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}

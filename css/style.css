@@ -39,7 +39,7 @@
     margin: .5em 0em;
     height: 3em;
 
-    background-color: darkred;
+    background-color: chocolate;
 }
 
 .my-navbar ul {
@@ -74,68 +74,50 @@
     text-decoration: underline;
 }
 
-.technos-langages-img , 
-.technos-framework-img,
-.technos-ide-img {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
 .technos-langages-img img, 
 .technos-framework-img img,
-.technos-ide-img img {
-    width: 8em;
-    height: 8em;
+.technos-ide-img img, 
+.technos-sgbdr-img img,
+.formations-elmt img {
+    width: 7em;
+    height: 7em;
+
+    margin-left: 2em;
 }
 
-.img-html {
-    grid-column: 1;
-    grid-row: 1;
+.formations-elmt {
+    height: 9em;
+    margin-bottom: 1em;
+
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
 }
 
-.img-css {
-    grid-column: 2;
-    grid-row: 1;
+.formations-elmt img {
+    height: 7em;
+    width: 7em;
+    margin-right: 2em;
 }
 
-.img-php {
-    grid-column: 3;
-    grid-row: 1;
+.my-footer {
+    height: 7.5em;
+    margin: .5em 0em;
+
+    align-content: center;
+    text-align: center;
+    background-color: chocolate;
 }
 
-.img-java {
-    grid-column: 4;
-    grid-row: 1;
+span {
+    font-weight: bold;
 }
 
-.img-javascript {
-    grid-column: 2;
-    grid-row: 2;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.img-typescript {
-    grid-column: 3;
-    grid-row: 2;
-}
-
-.img-angular {
-    grid-column: 2;
-    grid-row: 1;;
-}
-
-.img-springboot {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-.img-vscode {
-    grid-column: 2;
-    grid-row: 1;;
-}
-
-.img-eclipse {
-    grid-column: 3;
-    grid-row: 1;
+a:hover {
+    text-decoration: underline;
 }
